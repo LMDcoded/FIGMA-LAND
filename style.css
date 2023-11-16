@@ -24,6 +24,10 @@ header{
     align-items: center;
 }
 
+.headerLogo img{
+    width: 100%;
+}
+
 nav ul{
     display: flex;
     gap: 2rem;
@@ -133,6 +137,7 @@ ul li{
     font-weight: 700;
     line-height: 33px; /* 150% */
     letter-spacing: 0.1px;
+    margin-top: 5rem;
 }
 
 .fingertips h1{
@@ -324,6 +329,223 @@ ul li{
     margin-top: .7rem;
     margin-bottom: 6rem;
 }
+
+.partners{
+    align-items: center;
+    text-align: center;
+}
+
+.allPartners{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.allPartners2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.partners h2{
+    color: var(--text, #252B42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px; /* 123.913% */
+    letter-spacing: 0.2px;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.partners p{
+    color: var(--second-text, #374754);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+    width: 20%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.part1 p{
+    width: 64%;
+    margin: auto;
+    color: var(--second-text, #374754);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.2px;
+    margin-top: 1.5rem;
+}
+.part2 p{
+    width: 64%;
+    margin: auto;
+    color: var(--second-text, #374754);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.2px;
+    margin-top: 1.5rem;
+}
+
+.part1 h6{
+    color: var(--second-text, #374754);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 1.5rem;
+}
+.part2 h6{
+    color: var(--second-text, #374754);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 1.5rem;
+}
+
+.partImage img{
+    width: 35%;
+}
+
+.partners button{
+    border-radius: 30px;
+    background: var(--Secondary, #38A3F1);
+    border: none;
+    padding: 10px 39px;
+    color: var(--Light-text, #FFF);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-top: 4rem;
+}
+
+.testimonials{
+    align-items: center;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.testimonials h2{
+    color: var(--text, #252B42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px; /* 123.913% */
+    letter-spacing: 0.2px;
+    margin-bottom: 4rem;
+}
+
+.testLogo{
+    text-align: center;
+}
+
+.testLogo img{
+    width: 15%;
+}
+
+.testimonials h4{
+    color: var(--second-text, #374754);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+    width: 43%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.testFlex{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 12%;
+    margin: auto;
+}
+
+.testImage img{
+    width: 100%;
+}
+
+.testText h5{
+    color: var(--second-text, #374754);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.testText p{
+    color: var(--text, #252B42);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+    letter-spacing: 0.2px;
+}
+
+.testBtn{
+    text-align: center;
+}
+
+.testBtn button{
+    border-radius: 35px;
+    background: var(--Secondary, #38A3F1);
+    padding: 16px 47px;
+    margin-top: 4rem;
+    border: none;
+    color: var(--Light-text, #FFF);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+
+
+
+
+
+
+
 
 
 
