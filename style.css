@@ -33,7 +33,7 @@ nav ul{
     gap: 2rem;
 }
 
-ul li{
+nav ul li{
     color: var(--Light-text, #FFF);
     text-align: center;
     font-family: Roboto;
@@ -195,11 +195,25 @@ ul li{
 }
 
 .featuresText h3{
-    width: 70%;
+    width: 80%;
+    color: var(--text, #252B42);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 150% */
+    letter-spacing: 0.1px;
 }
 
 .features p{
-    width: 75%;
+    width: 90%;
+    color: var(--second-text, #374754);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.2px;
 }
 
 .features{
@@ -612,6 +626,7 @@ ul li{
     background: var(--light-background, #FFF);
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     padding: 40px;
+    width: 100%;
 }
 
 .card1:hover{
@@ -654,6 +669,7 @@ box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     font-weight: 900;
     line-height: 65.5px; /* 119.091% */
     letter-spacing: 0.2px;
+    /* width: 100%; */
 }
 
 .highlight{
@@ -793,6 +809,512 @@ box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
 .socialLogo img{
     width: 50%;
 }
+
+.allFooter{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.fAddress h5{
+    color: var(--second-text, #374754);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.footerPage h3{
+    color: var(--text, #252B42);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 1rem;
+}
+
+.footerPage li{
+    color: var(--text, #252B42);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
+}
+
+.footerImage img{
+    width: 100%;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1024px){
+
+    .heroText p{
+        width: 70%;
+    }
+
+    .fingertips p{
+        width: 30%;
+    }
+
+    .overallFeatures{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 6rem;   
+    }
+    
+    .featuresText h3{
+        width: 100%;
+    }
+    
+    .features p{
+        width: 100%;
+    }
+
+    .prototype h4{
+        width: 30%;
+    }
+
+    .partners p{
+        width: 30%;
+    }
+
+    .part1 p{
+        width: 90%;
+    }
+    
+    .part2 p{
+        width: 90%;
+    }
+
+    .testFlex{
+        width: 20%;
+    }
+
+    .allCards{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .allFooter{
+        width: 90%;
+    }
+
+    .contactHead h4{
+        width: 30%;
+    }
+  
+    .contactFlex{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav,.headbutton input,.headbutton button{
+        display: none;
+    }
+
+    .heroText h1{
+        font-size: 38px;
+        margin-bottom: 1rem;
+        line-height: 50px;
+    }
+
+    .hero{
+        width: 100%;
+        margin-top: -2rem;
+    }
+
+    .heroText p{
+        margin-bottom: 1.5rem;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .fingertips p{
+        width: 40%;
+    }
+
+    .overallFeatures{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+
+    .featuresText h3{
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .features p{
+        width: 100%;
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    .features{
+        margin-left: 3rem;
+    }
+
+    .prototype h4{
+        width: 40%;
+    }
+
+    .prototype h2{
+        width: 40%;
+    }
+
+    .subscribeButton input{
+        width: 35%;
+    }
+    
+    .subscribeButton button{
+        width: 35%;
+    }
+
+    .partners p{
+        width: 40%;
+    }
+
+    .allPartners{
+        width: 80%;
+    }
+
+    .allPartners2{
+        width: 80%;
+    }
+
+    .part1 p{
+        width: 100%;
+    }
+    
+    .part2 p{
+        width: 90%;
+    }
+
+    .testimonials h4{
+        width: 55%;
+    }
+
+    .testBtn button{
+        padding: 12px 35px;
+    }
+
+    .pricing h4{
+        width: 40%;
+    }
+
+    .allCards{
+        width: 90%;
+    }
+
+    .card1{
+        padding: 25px;
+    }
+
+    .contactHead h4{
+        width: 40%;
+    }
+  
+    .contactFlex{
+        width: 85%;
+    }
+
+    .allFooter{
+        width: 90%;
+    }
+
+    .footerPage h3{
+        color: var(--text, #252B42);
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px; /* 150% */
+        letter-spacing: 0.1px;
+        margin-bottom: 1rem;
+    }
+    
+    .footerPage li{
+        color: var(--text, #252B42);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 180% */
+        letter-spacing: 0.2px;
+        margin-bottom: 1rem;
+    }
+    
+    .footerImage img{
+        width: 80%;
+        margin-left: 2rem;
+    }
+
+    .fAddress h5{
+        width: 290px;
+    }
+
+    .footerPage li{
+        width: 150px;
+    }   
+}
+
+
+@media screen and (max-width:426px){
+    .hero{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+
+    .heroText{
+        text-align: center;
+    }
+
+    .heroText p{
+        width: 65%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .heroText h1{
+        width: 100%;
+    }
+
+    .heroText button :hover{
+        background: var(--Secondary, #38A3F1);
+    }
+
+    .heroImage img{
+        margin-left: 2rem;
+    }
+
+    .fingertips p{
+        width: 65%;
+    }
+
+    .overallFeatures{
+        flex-direction: column;
+    }
+
+    .features{
+        width: 50%;
+        margin-bottom: 3rem;
+        margin-left: 7rem;
+    }
+
+    .prototype h2{
+        width: 80%;
+    }
+    
+    .prototype h4{
+        width: 65%;
+    }
+
+    .subscribe h2{
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .subscribeButton input{
+        width: 70%;
+    }
+
+    .subscribeButton button{
+        width: 70%;
+    }
+
+    .partners  p{
+        width: 65%;
+    }
+
+    .allPartners, .allPartners2{
+        flex-direction: column;
+    }
+
+    .part1, .part2{
+        margin-bottom: 2rem;
+    }
+
+    .testLogo img{
+        width: 40%;
+    }
+
+    .testimonials h4{
+        width: 70%;
+    }
+
+    .testFlex{
+        width: 40% ;
+    }
+
+    .pricing h4{
+        width: 65%;
+    }
+
+    .allCards{
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .contactHead h4{
+        width: 65%;
+    }
+
+    .contactFlex{
+        flex-direction: column;
+    }
+
+    .socialLogo img{
+        width: 60%;
+    }
+
+    .allFooter{
+        flex-direction: column;
+    }
+
+    .footerPage{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .footerImage{
+        margin-bottom: 2rem;
+    }
+    }
+
+
+    @media screen and (max-width:376px) {
+    .heroText p{
+        width: 75%;
+    }
+
+    .heroText h1{
+        font-size: 32px;
+    }
+
+    .fingertips p{
+        width: 75%;
+    }
+
+    .features{
+        width: 55%;
+        margin-left: 6rem;
+    }
+
+    .prototype h4{
+        width: 75%;
+    }
+
+    .subscribe h2{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .partners  p{
+        width: 75%;
+    }
+
+    .pricing h4{
+        width: 75%;
+    }
+
+    .testimonials h4{
+        width: 80%;
+    }
+
+    .contactHead h4{
+        width: 75%;
+    } 
+    
+    .footerSocials{
+        width: 70%;
+    }
+    }
+
+
+    @media screen and (max-width:321px) {
+
+        .heroText p{
+            width: 85%;
+        }
+    
+        .heroText h1{
+            font-size: 28px;
+        }
+
+        .fingertips p{
+            width: 85%;
+        }
+    
+        .features{
+            width: 65%;
+            margin-left: 4rem;
+        }
+    
+        .prototype h4{
+            width: 90%;
+        }
+
+        .prototype h2{
+            width: 90%;
+            font-size: 40px;
+        }
+    
+        .subscribe h2{
+            width: 100%;
+            font-size: 26px;
+        }
+    
+        .subscribeButton input, .subscribeButton button{
+            width: 80%;
+        }
+
+        .partners  p{
+            width: 90%;
+        }
+    
+        
+        .pricing h4{
+            width: 90%;
+        }
+
+        .testimonials h4{
+            width: 95%;
+        }
+    
+        .testFlex{
+            width: 50% ;
+        }
+    
+        .contactHead h4{
+            width: 90%;
+        } 
+
+        .allCards{
+            width: 70%;
+        }
+
+        .footerSocials{
+            width: 80%;
+        }
+        
+    }
+
+
 
 
 
