@@ -48,6 +48,7 @@ nav ul li{
 
 nav :hover{
     cursor: pointer;
+    color: blanchedalmond;
 }
 
 
@@ -180,7 +181,7 @@ nav :hover{
     font-weight: 900;
     line-height: 20px; /* 125% */
     letter-spacing: 0.2px;
-    width: 21%;
+    width: 20.5%;
     margin: auto;
 }
 
@@ -215,7 +216,7 @@ nav :hover{
 }
 
 .features p{
-    width: 100%;
+    width: 95%;
     color: var(--second-text, #374754);
     font-family: Roboto;
     font-size: 18px;
@@ -259,7 +260,7 @@ nav :hover{
     line-height: 20px; /* 125% */
     letter-spacing: 0.2px;
     margin-top: 2rem;
-    width: 21%;
+    width: 20.5%;
     margin: auto;
 }
 
@@ -348,7 +349,7 @@ nav :hover{
     border: 1px solid #E8E8E8;
     background: #F4F4F4;
     padding: 16px 32px;
-    width: 21%;
+    width: 20.5%;
     margin-top: 1rem;
 }
 
@@ -419,7 +420,7 @@ nav :hover{
     font-weight: 700;
     line-height: 20px; /* 125% */
     letter-spacing: 0.2px;
-    width: 21%;
+    width: 20.5%;
     margin: auto;
     margin-top: 2rem;
 }
@@ -619,7 +620,7 @@ nav :hover{
     font-weight: 700;
     line-height: 20px; /* 125% */
     letter-spacing: 0.2px;
-    width: 21%;
+    width: 20.5%;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -748,7 +749,7 @@ box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     font-weight: 700;
     line-height: 20px; /* 125% */
     letter-spacing: 0.2px;
-    width: 21%;
+    width: 20.5%;
     margin: auto;
     margin-top: 1rem;
 }
